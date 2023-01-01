@@ -57,18 +57,23 @@ Module Wiring:<BR>
 </table>
 <BR>
 Cabinet Wiring:<BR>
-You will need to create a wring harness that will enable the raly to close the physical nudge buttons.  This can be done with two wires for each contact of each button.  On one end join the two wires together and crimp into one of the connectors.  I joined them together on the female (button) end of the wire but the male end for the existing wire would work just as well. On the other end of the wire crimp the other gender connector.  This will allow you to tap into that wire to the button while leaving the button function intact.
+I created a wring harness that will enable the relay to close the physical nudge buttons.  This can be done with two wires for each contact of each button.  On one end join the two wires together and crimp into one of the connectors.  I joined them together on the female (button) end of the wire but the male end for the existing wire would work just as well. On the other end of the wire crimp the other gender connector.  This will allow you to tap into that wire to the button while leaving the button function intact.
 <BR><BR>
-You will need to make six of these two for each button.  The un-crimped tap wire will go to the NO contacts for each of the three relays.  You will remove the existing button wires from the buttons and attach this harness in their place with the existing wires then plugged into the harness.
+I made six of these, two for each button.  The un-crimped tap wire will go to the NO contacts for each of the three relays.  I removed the existing button wires from the buttons and attached this harness in their place with the existing wires then plugged into the harness.
 <BR>
 <BR>
 <img src="https://github.com/j2robin/PinballNudgeRelay/blob/main/Pinball%20wiring%20Diagram.jpg" alt="Fig2" width="500" height="600"></img>
 <BR><BR>
 Power:<BR>
-Power the Pro Micro through the micro USB port.  I run a USB cable outside the cabinet to a USB adapter so that I can make adjustments to the sketch if needed.  I will likely power it from some internal source once I am satisfied that I will no longer be tweaking any values or code.  You might power it from the ALU's usb port or if you use solenoids for flipper feedback like I do you might use a 12V to 5V adapter like this one.  https://www.amazon.com/gp/product/B0B24MF21J/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1. Make sure your power supply has enough headroom doe the additional drain though.
+I Powered the Pro Micro through the micro USB port.  I run a USB cable outside the cabinet to a USB adapter so that I can make adjustments to the sketch if needed.  I will likely power it from some internal source once I am satisfied that I will no longer be tweaking any values or code.  You might power it from the ALU's usb port or if you use solenoids for flipper feedback like I do you might use a 12V to 5V adapter like this one.  https://www.amazon.com/gp/product/B0B24MF21J/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1. Make sure the power supply you use has enough headroom doe the additional drain though.
 <BR><BR>
 Adjusting Constants:<BR>
 I have tweaked the constant values for acceleration for the nudge directions to suit me.  I prefer a relatively light touch in the horizontal directions so I don't have to nudge too hard.  I did find that I needed to increase the forward nudge force slightly to reduce false activations from using the plunger.  You may need to adjust the constant values to your own taste if you find my defaults to light or heavy.
 <BR><BR>
 const float XNUDGE_FORCE = .6;<BR>
 const float YNUDGE_FORCE = .8;
+<BR>
+<BR>
+Disclaimers:
+<BR>
+I have documented what I have done to implement this project for my own use.  If you choose to use my code or follow my directions I take no responsibility if you break something, void your warrenty, hurt someone or cause the world to come to an end.  If you choose to build this project you do so completely at your own risk and there is no warranty of any kind.
