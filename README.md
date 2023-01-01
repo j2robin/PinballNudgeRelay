@@ -67,7 +67,7 @@ You will need to make six of these two for each button.  The un-crimped tap wire
 Power:<BR>
 Power the Pro Micro through the micro USB port.  I run a USB cable outside the cabinet to a USB adapter so that I can make adjustments to the sketch if needed.  I will likely power it from some internal source once I am satisfied that I will no longer be tweaking any values or code.  You might power it from the ALU's usb port or if you use solenoids for flipper feedback like I do you might use a 12V to 5V adapter like this one.  https://www.amazon.com/gp/product/B0B24MF21J/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1. Make sure your power supply has enough headroom doe the additional drain though.
 <BR><BR>
-Adjusting Constants<BR>
+Adjusting Constants:<BR>
 I have tweaked the constant values for acceleration for the nudge directions to suit me.  I prefer a relatively light touch in the horizontal directions so I don't have to nudge too hard.  I did find that I needed to increase the forward nudge force slightly to reduce false activations from using the plunger.  You may need to adjust the constant values to your own taste if you find my defaults to light or heavy.
 <BR><BR>
 const float XNUDGE_FORCE = .6;<BR>
