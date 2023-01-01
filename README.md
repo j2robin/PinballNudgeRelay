@@ -76,4 +76,4 @@ const float YNUDGE_FORCE = .8;
 <BR>
 Disclaimers:
 <BR>
-I have documented what I have done to implement this project for my own use.  If you choose to use my code or follow my directions I take no responsibility if you break something, void your warranty, hurt someone or cause the world to come to an end.  If you choose to build this project you do so completely at your own risk and there is no warranty of any kind.
+I have documented what I have done to implement this project for my own use.  If you choose to use my code or follow my directions I take no responsibility if you break something, void your warranty, hurt someone or cause the world to come to an end or anything in between.  If you choose to build this project you do so completely at your own risk and there is no warranty of any kind.
