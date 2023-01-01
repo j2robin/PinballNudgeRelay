@@ -13,7 +13,7 @@ If AtGames ever adds low pass filtering to their accelerometer this mod may beco
 <BR>
 <img src="https://github.com/j2robin/PinballNudgeRelay/blob/main/PinballNudgeRelay.jpg" alt="Fig1" width="500" height="600"></img>
 <BR><BR>
-Parts Needed
+Parts Needed:
 <BR>
 These are the parts I used.  Anything similar from the retailer of your choice should work but you may have to adjust as connection labels and pin numbers may be different.
 <BR>
